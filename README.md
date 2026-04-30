@@ -17,7 +17,7 @@ A modern, full-stack web application for tracking personal expenses, setting bud
   - `MONGODB_URI` (your MongoDB Atlas connection string)
   - `JWT_SECRET` (your JWT secret key for authentication)
   - `PORT` (optional, default is 5000)
-- Note your Render backend URL (e.g., `https://fullstack-personal-finance-vizualizer.onrender.com`).
+- Note your Render backend URL (e.g., `https://personal-finance-visualizer-prw2.onrender.com`).
 - **CORS:**
   - In `server/server.js`, add your deployed Vercel frontend URL to the `allowedOrigins` array.
 
@@ -26,7 +26,7 @@ A modern, full-stack web application for tracking personal expenses, setting bud
 - Deploy the `client/` directory to [Vercel](https://vercel.com/).
 - In the Vercel dashboard, go to **Settings > Environment Variables** and add:
   - **Key:** `VITE_API_URL`
-  - **Value:** _your Render backend URL_ (e.g., `https://fullstack-personal-finance-vizualizer.onrender.com`)
+  - **Value:** _your Render backend URL_ (e.g., `https://personal-finance-visualizer-prw2.onrender.com`)
 - Redeploy your frontend after setting the environment variable.
 
 ### 3. **API URLs in Code**
@@ -34,7 +34,7 @@ A modern, full-stack web application for tracking personal expenses, setting bud
 - All API helpers use:
   ```js
   import.meta.env.VITE_API_URL ||
-    "https://fullstack-personal-finance-vizualizer.onrender.com";
+    "https://personal-finance-visualizer-prw2.onrender.com";
   ```
 - This ensures the frontend always talks to the correct backend in production.
 
@@ -47,8 +47,8 @@ A modern, full-stack web application for tracking personal expenses, setting bud
 
 ## 🌟 Live Demo
 
-- **Frontend**: [https://fullstack-personal-finance-vizualizer-gourav-mondals-projects.vercel.app/](https://fullstack-personal-finance-vizualizer-gourav-mondals-projects.vercel.app/)
-- **Backend API**: [https://fullstack-personal-finance-vizualizer.onrender.com](https://fullstack-personal-finance-vizualizer.onrender.com)
+- **Frontend**: [https://personal-finance-visualizer-git-master-srishty-singhs-projects.vercel.app/](https://personal-finance-visualizer-git-master-srishty-singhs-projects.vercel.app/)
+- **Backend API**: [https://personal-finance-visualizer-prw2.onrender.com](https://fullstack-personal-finance-vizualizer-prw2.onrender.com)
 
 ## ✨ Features
 
@@ -209,7 +209,7 @@ A modern, full-stack web application for tracking personal expenses, setting bud
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Gourav123-sys/personal-finance-visualizer.git
+   git clone https://github.com/mysterysrishty/Personal-Finance-Visualizer.git
    cd personal-finance-visualizer
    ```
 
@@ -404,7 +404,6 @@ personal-finance-visualizer/
 **Srishty Singh**
 
 - GitHub: [@srishty](https://github.com/mysterysrishty)
-- LinkedIn: [srishty singh](https://www.linkedin.com/in/gourav-mondal-55a812204/)
 - Email: singhsrishty711@gmail.com
 
 ## 🙏 Acknowledgments
@@ -415,14 +414,7 @@ personal-finance-visualizer/
 - **Vercel & Render** - For the hosting platforms
 - **MongoDB** - For the database solution
 
-## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/Gourav123-sys/personal-finance-visualizer?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Gourav123-sys/personal-finance-visualizer?style=social)
-![GitHub issues](https://img.shields.io/github/issues/Gourav123-sys/personal-finance-visualizer)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Gourav123-sys/personal-finance-visualizer)
-
----
 
 ⭐ **Star this repository if you found it helpful!**
 
