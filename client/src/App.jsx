@@ -237,7 +237,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-6">
           <p className="text-sm text-gray-600 mb-4">
-            © 2025 <span className="font-semibold">Gourav Mondal</span>. All
+            © 2025 <span className="font-semibold">Srihsty Singh</span>. All
             rights reserved.
           </p>
           <p className="text-sm text-gray-500 mb-6">
@@ -248,7 +248,7 @@ function Footer() {
         <div className="flex justify-center items-center gap-6">
           {/* GitHub Link */}
           <a
-            href="https://github.com/Gourav123-sys"
+            href="https://github.com/mysterysrishty"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-xl hover:bg-gray-700 transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
@@ -261,7 +261,7 @@ function Footer() {
 
           {/* LinkedIn Link */}
           <a
-            href="https://www.linkedin.com/in/gourav-mondal-55a812204/"
+            href="https://www.linkedin.com/in/srishty-singh-b4a0b4393/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"

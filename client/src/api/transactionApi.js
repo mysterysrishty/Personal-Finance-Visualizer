@@ -2,7 +2,7 @@ import { getToken } from "./authToken";
 
 const BASE_URL =
   import.meta.env.VITE_API_URL ||
-  "https://fullstack-personal-finance-vizualizer.onrender.com";
+  "https://personal-finance-visualizer-prw2.onrender.com";
 const API_URL = `${BASE_URL}/api/transactions`;
 
 export async function getTransactions() {
