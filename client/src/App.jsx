@@ -237,7 +237,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-6">
           <p className="text-sm text-gray-600 mb-4">
-            © 2025 <span className="font-semibold">Srihsty Singh</span>. All
+            © 2025 <span className="font-semibold">Srishty Singh</span>. All
             rights reserved.
           </p>
           <p className="text-sm text-gray-500 mb-6">
