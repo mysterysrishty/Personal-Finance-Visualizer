@@ -5,9 +5,9 @@ const cors = require("cors");
 
 const app = express();
 const allowedOrigins = [
-  "https://fullstack-personal-finance-vizualizer-gourav-mondals-projects.vercel.app",
-  "https://fullstack-personal-finance-v-git-74de94-gourav-mondals-projects.vercel.app",
-  "https://fullstack-personal-finance-vizualiz.vercel.app",
+  "https://personal-finance-visualizer-azure-zeta.vercel.app/",
+  "https://personal-finance-visualizer-git-master-srishty-singhs-projects.vercel.app/",
+  "https://personal-finance-visualizer-gp96kz998-srishty-singhs-projects.vercel.app/",
 ];
 
 // TEMP: Allow all origins for debugging CORS
@@ -16,7 +16,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose
-  .connect(process.env.MONGODB_URI, {
+  .connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
